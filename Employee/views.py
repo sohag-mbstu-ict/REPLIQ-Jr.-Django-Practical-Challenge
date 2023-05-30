@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, JsonResponse
@@ -104,4 +105,5 @@ class GenericApiView_DeviceLog(generics.GenericAPIView,
     
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return render(request,'home.html')
+    #return HttpResponse("Hello, world. You're at the polls index.")
