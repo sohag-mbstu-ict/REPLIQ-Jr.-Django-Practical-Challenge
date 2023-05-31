@@ -189,3 +189,24 @@ For company table
     def delete(self,request,id=id):
         return self.destroy(request,id)
 ```
+
+
+# Display Home page
+
+![](screenshot/home.PNG)
+
+
+# Display data from Company table
+
+![](screenshot/company_api.PNG)
+
+
+# Display data from Device table
+
+![](screenshot/device_api.PNG)
+
+# Display data from DeviceLog table
+
+![](screenshot/deviceLog_api.PNG)
+
+
