@@ -10,12 +10,6 @@ Django REST framework
 psycopg2
 
 
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
 # Project property
 ### Project Name : Track_Gadget 
 It is used to manage all apps
