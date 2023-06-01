@@ -206,7 +206,7 @@ For company table
         return self.destroy(request,id)
 ```
 
-# Declaring Model serializers
+# urls.py of Employee apps
 
 We can display single or all data from Company, Device and DeviceLog table
 ```bash
