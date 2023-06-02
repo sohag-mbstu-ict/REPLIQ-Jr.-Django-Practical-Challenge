@@ -244,4 +244,17 @@ urlpatterns = [
 
 ![](screenshot/deviceLog_api.PNG)
 
+# Simple Frontend View
+## Display data from Company table
+
+![](screenshot/company_html.PNG)
+
+## Display data from Device table
+
+![](screenshot/device_html.PNG)
+
+## Display data from DeviceLog table
+
+![](screenshot/deviceLog_html.PNG)
+
 
