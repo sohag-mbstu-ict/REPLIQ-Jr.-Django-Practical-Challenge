@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p>DeviceLog Table : </p>
+
+<table border='1'>
+  <tr>
+    <th>condition</th>
+    <th>timestamp</th>
+    
+  </tr>
+  {% for x in mymembers %}
+    <tr>
+      <td>{{ x.condition }}</td>
+      <td>{{ x.timestamp }}</td>
+
+      
+    </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>   

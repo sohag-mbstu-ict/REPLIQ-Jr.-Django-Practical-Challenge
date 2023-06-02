@@ -107,3 +107,40 @@ class GenericApiView_DeviceLog(generics.GenericAPIView,
 def index(request):
     return render(request,'home.html')
     #return HttpResponse("Hello, world. You're at the polls index.")
+
+
+def company(request):
+    mydata=Company.objects.all().values()
+    template=loader.get_template('company.html')
+    context={
+        'mymembers':mydata
+    }
+
+    return HttpResponse(template.render(context,request))
+
+def device(request):
+    mydata=Device.objects.all().values()
+    template=loader.get_template('device.html')
+    context={
+        'mymembers':mydata
+    }
+    return HttpResponse(template.render(context,request))
+
+def company(request):
+    mydata=Company.objects.all().values()
+    template=loader.get_template('company.html')
+    context={
+        'mymembers':mydata
+    }
+
+    return HttpResponse(template.render(context,request))
+
+def devicelog(request):
+    mydata=DeviceLog.objects.all().values()
+    template=loader.get_template('devicelog.html')
+    context={
+        'mymembers':mydata
+    }
+
+    return HttpResponse(template.render(context,request))
+

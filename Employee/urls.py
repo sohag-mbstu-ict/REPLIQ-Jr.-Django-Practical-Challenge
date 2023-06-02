@@ -13,4 +13,8 @@ urlpatterns = [
 
     path('devicelog/',GenericApiView_DeviceLog.as_view(),name="devicelog"),
     path('devicelog/<int:id>/',GenericApiView_DeviceLog.as_view(),name="devicelog"),
+
+    path("company_html/", views.company, name="company_html"),
+    path("device_html/", views.device, name="company_html"),
+    path("devicelog_html/", views.devicelog, name="company_html"),
 ]
